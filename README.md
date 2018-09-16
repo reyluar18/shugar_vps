@@ -6,12 +6,12 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on
 
 - Centos 6 x86 & x64
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Centos6 && chmod +x FFAST_Centos6 && ./FFAST_Centos6 && rm -f FFAST_Centos6 && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/shugar_vps/master/FFAST_Centos6 && chmod +x FFAST_Centos6 && ./FFAST_Centos6 && rm -f FFAST_Centos6 && history -c`
 
 
 - Debian 8 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Debian8 && chmod +x FFAST_Debian8 && ./FFAST_Debian8 && rm -f FFAST_Debian8 && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/shugar_vps/master/FFAST_Debian8 && chmod +x FFAST_Debian8 && ./FFAST_Debian8 && rm -f FFAST_Debian8 && history -c`
 
 
 
