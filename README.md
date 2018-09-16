@@ -18,9 +18,11 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on
 ## OCS
 
 - Debian
+
 `apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/shugar_vps/master/Shugar_OCS_Deb && chmod +x Shugar_OCS_Deb && ./Shugar_OCS_Deb && rm -f Shugar_OCS_Deb && history -c`
 
 - Centos
+
 `yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/shugar_vps/master/Shugar__OCS_Centos && chmod +x Shugar__OCS_Centos && ./Shugar__OCS_Centos && rm -f Shugar__OCS_Centos && history -c`
 
 ###ANTI-BLOCK
