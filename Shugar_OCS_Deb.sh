@@ -52,14 +52,12 @@ apt-get update -y
 apt-get install build-essential expect -y
 
 echo "clear" >> .bashrc
-echo 'echo -e "   .########.########....###.....######..########  "' >> .bashrc
-echo 'echo -e "   .##.......##.........##.##...##....##....##... "' >> .bashrc
-echo 'echo -e "   .##.......##........##...##..##..........##... "' >> .bashrc
-echo 'echo -e "   .######...######...##.....##..######.....##... "' >> .bashrc
-echo 'echo -e "   .##.......##.......#########.......##....##...  "' >> .bashrc
-echo 'echo -e "   .##.......##.......##.....##.##....##....##...  "' >> .bashrc
-echo 'echo -e "   .##.......##.......##.....##..######.....##...  "' >> .bashrc
-echo 'echo -e "       --------- Modified by Shugar ---------  "' >> .bashrc
+echo 'echo -e "    @@@@@@ @@@  @@@ @@@  @@@  @@@@@@@   @@@@@@  @@@@@@@  "' >> .bashrc
+echo 'echo -e "   !@@     @@!  @@@ @@!  @@@ !@@       @@!  @@@ @@!  @@@  "' >> .bashrc
+echo 'echo -e "    !@@!!  @!@!@!@! @!@  !@! !@! @!@!@ @!@!@!@! @!@!!@!  "' >> .bashrc
+echo 'echo -e "       !:! !!:  !!! !!:  !!! :!!   !!: !!:  !!! !!: :!! "' >> .bashrc
+echo 'echo -e "   ::.: :   :   : :  :.:: :   :: :: :   :   : :  :   : :  "' >> .bashrc
+echo 'echo -e "          --------- Modified by Shugar ---------  "' >> .bashrc
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
 echo 'echo -e "Script mod by shugar"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
@@ -114,9 +112,9 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/shugar/Shugar_OCS/master/OCSPanel.zip
-unzip OCSPanel.zip
-rm -f OCSPanel.zip
+wget https://github.com/Clrkz/VPSAutoScrptz/blob/master/OCS.zip
+unzip OCS.zip
+rm -f OCS.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
