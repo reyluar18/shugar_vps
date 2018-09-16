@@ -4,7 +4,7 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on
 
 ### Installation:
 
-##VPS
+## VPS
 
 - Centos 6 x86 & x64
 
